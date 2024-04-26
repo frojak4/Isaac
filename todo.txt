@@ -1,0 +1,27 @@
+
+
+-Player og enemy collision!
+-startScreen
+-Player HP, XP og stats
+-upgrades
+-waves
+-fleire enemies og enemy stats
+-boss
+
+
+
+-mann med pistol
+-llama som spytter
+-trollmann med spell
+-barn med snøball
+-pil og bue
+-drage som spytter ild
+
+
+
+
+-levels (skifter hvert minutt(?))
+-trenger spawnrates for alle fiender og hvor ofte fiender spawner
+
+
+

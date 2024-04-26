@@ -1,0 +1,105 @@
+html {
+    background-image: linear-gradient(-20deg, #100259 0%, #365473 100%);
+    height: 100%;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.overskrift {
+    text-align: center;
+    -webkit-text-stroke: .5px black;
+    font-weight: 400;
+    color: rgba(255, 166, 0, 0.888);
+    text-shadow: 3px 3px black;
+    
+}
+
+.skrift {
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke: black 3px;
+    text-shadow: 5px 5px black;
+}
+
+
+
+#container {
+    margin: 0 auto;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+}
+
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    margin: 0 auto;
+}
+
+.button {
+    margin: 50px;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    box-shadow: 1px 1px 3px black;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.start {
+    background: linear-gradient(176deg, rgba(12,0,181,1) 0%, rgba(0,18,255,1) 100%);
+}
+
+.credits {
+    background: linear-gradient(176deg, rgba(181,0,0,1) 0%, rgba(255,0,0,1) 100%);
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.levelups {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    
+}
+
+.upgrade {
+    height: 230px;
+    width: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    box-shadow: 1px 1px 3px black;
+    border: 1px solid black;
+}
+
+.damage {
+    background: linear-gradient(176deg, rgba(181,0,0,1) 0%, rgba(255,0,0,1) 100%);
+}
+
+.firerate {
+    background: linear-gradient(176deg, rgba(12,0,181,1) 0%, rgba(0,18,255,1) 100%);
+}
+
+.health {
+    background: linear-gradient(176deg, rgba(0,181,12,1) 0%, rgba(0,221,10,1) 100%);
+
+}
+
+canvas {
+    position: absolute;
+    z-index: 0;
+}
