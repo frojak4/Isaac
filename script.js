@@ -47,7 +47,7 @@ bulletImage.src = "bullet.webp"
 let fatty = new Image();
 fatty.src = "fatty.png"
 let gaper = new Image();
-gaper.src = "gaper.webp"
+gaper.src = "gaper.png"
 let bakrunn = new Image();
 bakrunn.src = "bakrunn.webp";
 
